@@ -1,2 +1,6 @@
 venv
 *.pyc
+images/eda/*
+images/results/*
+logs/*
+models/*

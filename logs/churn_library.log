@@ -1,9 +1,10 @@
-2023-09-24 13:29:31,091:INFO:root:Importing data from given Source
-2023-09-24 13:29:31,109:INFO:root:Performing EDA on data
-2023-09-24 13:29:31,109:INFO:root:Starting Exploratory data analysis
-2023-09-24 13:29:31,109:INFO:root:Dataset Dimensions: (10127, 22)
-2023-09-24 13:29:32,774:INFO:root:Exploratory data analysis finished, please check figures in folder: /images/eda/
-2023-09-24 13:29:32,774:INFO:root:Encoding categorical data in input
-2023-09-24 13:29:33,327:INFO:root:Performing feature engineering on data
-2023-09-24 13:29:33,331:INFO:root:Traing and saving the best models
-2023-09-24 13:33:17,481:INFO:root:Process completed!! Please check the outputs
+2023-09-24 18:50:28,068:INFO:root:Testing import_data: input dataframe is as expected!
+2023-09-24 18:50:28,086:INFO:root:Starting Exploratory data analysis
+2023-09-24 18:50:28,087:INFO:root:Dataset Dimensions: (10127, 22)
+2023-09-24 18:50:29,625:INFO:root:Exploratory data analysis finished, please check figures in folder: /images/eda/
+2023-09-24 18:50:29,625:INFO:root:Testing perform_eda: Successfully EDA completed!
+2023-09-24 18:50:30,211:INFO:root:Successfully generated encoded dataframe
+2023-09-24 18:50:30,212:INFO:root:Testing encoder_helper: found required column!
+2023-09-24 18:50:30,216:INFO:root:Successfully completed feature engioneering on dataframe!
+2023-09-24 18:54:18,615:INFO:root:Testing train_models: found required models
+2023-09-24 18:54:18,615:INFO:root:Testing train_models: completed model creation!

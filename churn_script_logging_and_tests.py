@@ -1,5 +1,8 @@
 """
-Script for testing churn library using pytest
+Script for testing churn_library.py using pytest
+
+Author: Akshay Dhotre
+Date: September 22, 2023
 """
 import os
 import logging

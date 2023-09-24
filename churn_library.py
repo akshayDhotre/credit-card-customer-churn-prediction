@@ -1,6 +1,12 @@
 """
 Library for churn prediction using bank's financial data.
-This is used to predict the churn of customers.
+
+This module identifies credit card customers that are most likely to churn.
+
+It saves the model and the results in /models and /images folders respectively.
+
+Author: Akshay Dhotre
+Date: September 22, 2023
 """
 
 # import libraries

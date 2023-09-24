@@ -30,6 +30,7 @@ os.environ['QT_QPA_PLATFORM']='offscreen'
 logging.basicConfig(
     filename='./logs/churn_library.log',
     level=logging.INFO,
+    filemode='w',
     format = '%(asctime)s:%(levelname)s:%(name)s:%(message)s'
 )
 

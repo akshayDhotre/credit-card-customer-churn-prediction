@@ -1,0 +1,9 @@
+2023-09-24 13:29:31,091:INFO:root:Importing data from given Source
+2023-09-24 13:29:31,109:INFO:root:Performing EDA on data
+2023-09-24 13:29:31,109:INFO:root:Starting Exploratory data analysis
+2023-09-24 13:29:31,109:INFO:root:Dataset Dimensions: (10127, 22)
+2023-09-24 13:29:32,774:INFO:root:Exploratory data analysis finished, please check figures in folder: /images/eda/
+2023-09-24 13:29:32,774:INFO:root:Encoding categorical data in input
+2023-09-24 13:29:33,327:INFO:root:Performing feature engineering on data
+2023-09-24 13:29:33,331:INFO:root:Traing and saving the best models
+2023-09-24 13:33:17,481:INFO:root:Process completed!! Please check the outputs

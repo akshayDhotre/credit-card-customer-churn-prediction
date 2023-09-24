@@ -11,11 +11,11 @@
     - A Python package for a machine learning project that can be used to predict customer churn.
 
 ## Files and data description
- - Dataset
+#### Dataset
    - Dataset is pulled from [Kaggle](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/code)
   
         ![Dataset head](images/readme/dataset_image.png)
- - File Structure
+#### File Structure
     ```bash
     .
     ├── Guide.ipynb          # Given: Getting started and troubleshooting tips
@@ -31,15 +31,17 @@
     ├── logs				 # Store logs
     └── models               # Store models
     ```
- - Important files
+#### Important files
   
-    - churn_notebook.ipynb: Already provided notebook with implementation but without proper formats
-    - churn_library.py: The churn_library.py is a library of functions to find customers who are likely to churn.
-    - churn_script_logging_and_tests.py: This file should
+  - **churn_notebook.ipynb**: Already provided notebook with implementation but without proper formats
+  - **churn_library.py**: The churn_library.py is a library of functions to find customers who are likely to churn.
+  - **churn_script_logging_and_tests.py**:
+         
+      This file should - 
       - Contain unit tests for the churn_library.py functions. You have to write test for each input function. Use the basic assert statements that test functions work properly. The goal of test functions is to checking the returned items aren'
       t empty or folders where results should land have results after the function has been run.
       - Log any errors and INFO messages. You should log the info messages and errors in a .log file, so it can be viewed post the run of the script. The log messages should easily be understood and traceable.
-    - README.md: This file will provide an overview of the project, the instructions to use the code
+  - **README.md**: This file will provide an overview of the project, the instructions to use the code
 
 ## Churn Library function sequence diagram
    ![Churn Sequence Diagram](images/readme/churn_library_sequence.jpeg)
@@ -47,7 +49,7 @@
    - Python 3.8.x
    - virtual environment setup
 ## Running Files
- - Create virtual environment
+ #### Create virtual environment
     ```python
     # For Linux
     python3 -m venv venv
@@ -55,7 +57,7 @@
     # For Windows
     python.exe -m venv venv
     ```
- - Activate virtual environment
+  #### Activate virtual environment
     ```python
     # For Linux
     source venv/bin/activate
@@ -63,11 +65,11 @@
     # For Windows
     ./venv/Scripts/activate
     ```
- - Install dependencies using requirements file
+ #### Install dependencies using requirements file
     ```python
     pip install -r requirements.txt
     ```
- - Run scripts
+ #### Run scripts
    - Create models and report
         ```python
         python churn_library.py
@@ -76,7 +78,7 @@
         ```python
         python churn_script_logging_and_tests.py
         ``` 
- - Code quality considerations
+ #### Code quality considerations
    - Format code using [PEP8 - Style Guide](https://peps.python.org/pep-0008/)
         ```python
         autopep8 --in-place --aggressive --aggressive churn_script_logging_and_tests.py
